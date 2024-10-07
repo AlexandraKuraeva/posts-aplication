@@ -1,0 +1,31 @@
+.overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 10;
+}
+
+.modalPosition {
+	position: fixed;
+	inset: 0;
+	overflow-y: auto;
+	z-index: 1;
+}
+
+.modalContainer {
+	min-height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.modal {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	width: 600px;
+}

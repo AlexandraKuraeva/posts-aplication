@@ -1,0 +1,29 @@
+.post {
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		margin-bottom: 30px;
+	}
+}
+.number {
+	margin-right: 10px;
+}
+.title {
+	font-size: 16px;
+	display: inline;
+	@media (min-width: 768px) {
+		font-size: 20px;
+	}
+}
+
+.text {
+	margin: 15px 0;
+	font-size: 14px;
+	@media (min-width: 768px) {
+		font-size: 16px;
+	}
+}
+.btns {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+}

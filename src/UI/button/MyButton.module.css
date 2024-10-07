@@ -1,0 +1,22 @@
+.myBtn {
+	padding: 10px 30px;
+	background: linear-gradient(127.12deg, #00eaf9 -13.37%, #00bdf9 96.31%);
+	border: 1px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+
+	max-width: 100%;
+	color: #fff;
+	transition: all 0.3s ease;
+
+	&:hover {
+		border: 1px solid #0ba7f6;
+		background-color: #ffffff00;
+		color: #000000;
+	}
+
+	&:disabled {
+		background-color: transparent;
+		color: #63696c;
+	}
+}
