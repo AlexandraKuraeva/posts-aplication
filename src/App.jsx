@@ -29,7 +29,7 @@ function App() {
 		setIsLoading(true)
 		if (localStorage.getItem('posts')) {
 			setPosts(JSON.parse(localStorage.getItem('posts')))
-			console.log('posts from local storage')
+
 			setIsLoading(false)
 		} else {
 			setTimeout(fetchPosts, 1000)

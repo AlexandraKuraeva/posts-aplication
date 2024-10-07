@@ -32,7 +32,7 @@ function NewsList() {
 			JSON.stringify(posts.filter(p => p.id !== post.id))
 		)
 	}
-	console.log(posts.length)
+
 	return (
 		<>
 			<ul className={styles.posts}>
