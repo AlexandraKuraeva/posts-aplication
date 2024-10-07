@@ -2,9 +2,7 @@ import { useContext, useState } from 'react'
 
 import Button from '../../UI/button/MyButton'
 import Input from '../../UI/input/MyInput'
-
 import PostsContext from '../../contexts/PostsProvider'
-
 import './PostForm.scss'
 
 export const PostFormType = {

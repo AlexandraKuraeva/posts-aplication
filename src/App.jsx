@@ -34,8 +34,6 @@ function App() {
 		} else {
 			setTimeout(fetchPosts, 1000)
 		}
-
-		//return () => localStorage.clear()
 	}, [])
 
 	return (
