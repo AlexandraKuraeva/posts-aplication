@@ -1,8 +1,14 @@
-# React + Vite
+## React приложение для управления постами
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это приложение позволяет загружать, редактировать, создавать и удалять посты.
 
-Currently, two official plugins are available:
+Функциональность:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Загрузка постов: Возможность загрузить список постов из внешнего источника (например, API).
+Редактирование постов: Редактирование существующих постов, включая заголовок и текст.
+Создание новых постов: Для создания постов используйте кнопку "Создать".
+Удаление постов: Удаление существующих постов.
+
+
+
+
